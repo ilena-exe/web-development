@@ -1,0 +1,88 @@
+.top_block
+{
+    float: left;
+    margin-bottom: 50px;
+}
+.image_block
+{
+    position: relative;
+    width: 350px;
+    padding-left: 20px;
+    margin-right: 60px;
+    float: left;
+}
+.quote_block
+{
+    position: relative;
+    width: 300px;
+    float: left;
+}
+.first_quote
+{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 28px;
+    width: 271px;
+}
+.second_quote
+{
+    font-family: OpenSans;
+    font-size: 16px;
+}
+.bottom_block
+{
+    float: left;
+}
+.third_heading
+{
+    font-family: OpenSans;
+    font-size: 24px;
+}
+.list_elements
+{
+    position: relative;
+    width: 330px;
+    padding-left: 20px;
+    margin-right: 60px;
+    float: left;
+}
+.elements
+{
+    padding-left: 20px;
+    font-family: Georgia;
+    font-size: 19px;
+}
+.text_block
+{
+    float: right;
+}
+.first_heading
+{
+    position: relative;
+    font-family: OpenSans;
+    font-size: 48px;
+    font-weight: bold;
+}
+.line
+{
+    position: relative;
+    width: 60px;
+    height: 6px;
+    border: none;
+    border-radius: 30px;
+    background-color: #45c3aa;
+    margin-right: 410px
+}
+.first_text
+{
+    position: relative;
+    font-family: Georgia;
+    font-size: 19px;
+    float: right;
+}
+.second_heading
+{
+    position: relative;
+    font-family: OpenSans;
+    font-size: 36px;
+}

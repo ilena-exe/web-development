@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lw5</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="top_block">
+      <div class="image_block">
+         <img src="images/pic.png" class="image" alt="banned">
+      </div>
+      <div class="quote_block">
+          <img src="images/quote.png" class="image" alt="banned">
+          <blockquote class="first_quote">Мы берем на себя много, потому что мало чего боимся</blockquote>
+          <blockquote class="second_quote">-Том Демарко. Deadline</blockquote>
+      </div>
+  </div>
+
+  <div class="bottom_block">
+      <div class="list_elements">
+          <h3 class="third_heading">Любимые писатели:</h3>
+          <ul class="elements">
+              <li>Айзек Азимов</li>
+              <li>Говард Лавкрафт</li>
+              <li>Дмитрий Глуховский</li>
+              <li>Чак Маланик</li>
+          </ul>
+          <h3 class="third_heading">Любимые фильмы:</h3>
+          <ol class="elements">
+              <li>Шоу Трумэна</li>
+              <li>Малхолланд Драйв</li>
+              <li>Семь жизней</li>
+              <li>Гравитация</li>
+          </ol>
+      </div>
+      <div class="text_block">
+          <h1 class="first_heading">Jane Doe</h1>
+          <hr class="line">
+          <p class="first_text">В 1930-е годы прошлого века Джордж Гамоу из университета штата Колорадо начал публиковать мини-сериал рассказов о некоем мистере Томпкинсе, как явствовало из этих историй, интереовался современной наукой.</p>
+          <h2 class="second_heading">Мое хобби</h2>
+          <p class="first_text">Он регулярно посещал веччерние лекции местного профессора и, разумеется, всегда засыпал на самом интересном месте. А когда просыпался, то обнаруживал себя в каком-нибудь параллельном мире, где один из основных законов физики действовал не так, как в его мире.</p>
+          </p>
+          <form method="GET" class="form">
+              <p>
+                  <label for="your_name" class="form_text form_text_required">Ваше имя</label>
+                  <input type="text" id="your_name" name="your_name" required class="field name_field input_text all_fields"/>
+              </p>
+              <p>
+                  <label for="email" class="form_text form_text_required">Ваш email</label>
+                  <input type="email" id="email" name="email" required class="field email_field input_text all_fields"/>
+              </p>
+              <label for="country">Ваша cтрана </label>
+              <select name="country" id="country" class="country_field all_fields">
+                  <option value="rus" class="input_text">Россия</option>
+                  <option value="uk" class="input_text">Украина</option>
+                  <option value="by" class="input_text">Беларусь</option>
+                  <option value="eng" class="input_text">Великобритания</option>
+                  <option value="fr" class="input_text">Франция</option>
+                  <option value="ger" class="input_text">Германия</option>
+                  <option value="usa" class="input_text">США</option>
+              </select>
+              <p class="form_text gender_margin">Ваш пол
+                  <input type="radio" id="male" class="gender_radio" name="gender" value="male" checked>
+                  <label for="male" class="gender">Мужской</label>
+                  <input type="radio" id="female" class="gender_radio gender_radio_female" name="gender" value="female">
+                  <label for="female" class="gender">Женский</label>
+              </p>
+              <p>
+                  <label for="message" class="form_text message_margin form_text_required">Ваше сообщение</label>
+              </p>
+              <textarea name="message" required id="message" class="message input_text all_fields"></textarea>
+              <p>
+                  <input type="submit" value="Отправить" class="submit">
+              </p>
+          </form>
+      </div>
+  </div>
+</body>
+</html>
